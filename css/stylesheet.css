@@ -25,7 +25,7 @@ body {
 
 /* Custom Badges using the secondary and accent colors */
 .custom-badge-secondary {
-    background-color: #E2E8F0;
+    background-color: #000000;
     color: var(--secondary-slate);
     font-weight: 600;
 }
