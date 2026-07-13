@@ -16,7 +16,6 @@
             <!-- Left Side: Banner / Face -->
             <div class="col-md-5 text-center mb-4 mb-md-0">
                 <div class="p-4 bg-white shadow-sm rounded">
-                    <!-- Replace 'your-face.jpg' with your actual image filename -->
                     <img src="images/profile.jpg" alt="My Profile Picture" class="img-fluid rounded-circle profile-img mb-3">
                     <h2 class="fw-bold text-primary">Eude Milomo</h2>
                     <p style="color: var(--secondary-slate);">Software Engineer & IT Professional</p>
@@ -37,44 +36,9 @@
             </div>
         </section>
 
-        <!-- CONTENT SECTION (Bottom Row) -->
-        <section class="row section-padding mt-4">
-            <!-- Left Side: Contact Form -->
-            <div class="col-md-5 mb-5 mb-md-0">
-                <div class="p-4 bg-white shadow-sm rounded">
-    <h3 class="mb-4 fw-bold text-primary">Contact Me</h3>
-    
-    <form action="https://api.web3forms.com/submit" method="POST">
-        
-        <input type="hidden" name="access_key" value="5287bc43-8746-4ae2-9e47-d30bbc5c641e">
-        
-        <input type="hidden" name="subject" value="New Portfolio Message">
-        
-        <input type="hidden" name="redirect" value="https://eude06.github.io/portfolio/">
-
-        <div class="mb-3">
-            <label for="name" class="form-label fw-semibold">Name</label>
-            <input type="text" name="name" class="form-control" id="name" required>
-        </div>
-        
-        <div class="mb-3">
-            <label for="email" class="form-label fw-semibold">Email address</label>
-            <input type="email" name="email" class="form-control" id="email" required>
-        </div>
-        
-        <div class="mb-3">
-            <label for="message" class="form-label fw-semibold">Message</label>
-            <textarea name="message" class="form-control" id="message" rows="4" required></textarea>
-        </div>
-        
-        <button type="submit" class="btn btn-primary w-100 fw-bold">Send Message</button>
-    </form>
-</div>
-            </div>
-            
-            <!-- Right Side: Projects -->
-            <div class="col-md-7">
-                <div class="ps-md-4">
+        <div class="row">
+        <!-- Right Side: Projects -->
+            <div class="col-md-7 order-md-2 mb-4 mb-md-0 pt-4 pt-md-4">
                     <h3 class="mb-4 fw-bold text-primary">Featured Projects</h3>
                     
                     <!-- Project 1 -->
@@ -107,7 +71,41 @@
             <i class="bi bi-github"></i> View Code
         </a>
                     </div>
-                </div>
+            </div>
+
+        <!-- CONTENT SECTION (Bottom Row) -->
+            <!-- Left Side: Contact Form -->
+            <div class="col-md-5 order-md-1 mb-5 mb-md-0">
+                <div class="p-4 bg-white shadow-sm rounded">
+    <h3 class="mb-4 fw-bold text-primary">Contact Me</h3>
+    
+    <form action="https://api.web3forms.com/submit" method="POST">
+        
+        <input type="hidden" name="access_key" value="5287bc43-8746-4ae2-9e47-d30bbc5c641e">
+        
+        <input type="hidden" name="subject" value="New Portfolio Message">
+        
+        <input type="hidden" name="redirect" value="https://eude06.github.io/portfolio/">
+
+        <div class="mb-3">
+            <label for="name" class="form-label fw-semibold">Name</label>
+            <input type="text" name="name" class="form-control" id="name" required>
+        </div>
+        
+        <div class="mb-3">
+            <label for="email" class="form-label fw-semibold">Email address</label>
+            <input type="email" name="email" class="form-control" id="email" required>
+        </div>
+        
+        <div class="mb-3">
+            <label for="message" class="form-label fw-semibold">Message</label>
+            <textarea name="message" class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-primary w-100 fw-bold">Send Message</button>
+    </form>
+</div>
+            </div>
             </div>
         </section>
 
