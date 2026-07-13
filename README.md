@@ -3,7 +3,7 @@
 A clean, modern and fully responsive single-page portfolio website designed to showcase my software development projects and technical expertise without unnecessary navigation overhead.
 
 ## 🚀 Live Demo
-Once deployed, you can view the live site here: 
+You can view the live site here: 
 [https://https://eude06.github.io/portfolio/](https://https://eude06.github.io/portfolio/)
 
 ## 🛠️ Tech Stack
